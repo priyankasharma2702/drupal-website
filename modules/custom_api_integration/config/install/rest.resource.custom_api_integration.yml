@@ -1,0 +1,22 @@
+uuid: 70db3320-1f57-4b2f-aea8-f5246ed9e6e3
+langcode: en
+status: true
+dependencies:
+  module:
+    - basic_auth
+    - custom_api_integration
+    - serialization
+id: custom_api_integration
+plugin_id: custom_api_integration
+granularity: resource
+configuration:
+  methods:
+    - GET
+    - POST
+    - PUT
+    - DELETE
+    - PATCH
+  formats:
+    - json
+  authentication:
+    - basic_auth

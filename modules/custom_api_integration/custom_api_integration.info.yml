@@ -1,0 +1,11 @@
+name: 'Custom API Integration'
+type: module
+description: 'Fetches and displays data from an external API.'
+core_version_requirement: ^9 || ^10 || ^11
+package: Custom
+version: 1.0
+
+dependencies:
+  - rest
+  - serialization
+  - basic_auth
